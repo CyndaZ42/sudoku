@@ -1,0 +1,2 @@
+{"C:\\Users\\zacwa\\Code\\sudoku\\src\\row.js": {"path":"C:\\Users\\zacwa\\Code\\sudoku\\src\\row.js","statementMap":{"0":{"start":{"line":2,"column":2},"end":{"line":2,"column":23}}},"fnMap":{"0":{"name":"Row","decl":{"start":{"line":1,"column":24},"end":{"line":1,"column":27}},"loc":{"start":{"line":1,"column":35},"end":{"line":3,"column":1}},"line":1}},"branchMap":{},"s":{"0":1},"f":{"0":1},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"c7370505844e20818891ae9446b47c8cf7cab89b"}
+}
