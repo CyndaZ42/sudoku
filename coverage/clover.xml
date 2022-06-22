@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655935160329" clover="3.2.0">
-  <project timestamp="1655935160329" name="All files">
-    <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="2" coveredelements="2" complexity="0" loc="1" ncloc="1" packages="1" files="1" classes="1"/>
+<coverage generated="1655935617889" clover="3.2.0">
+  <project timestamp="1655935617890" name="All files">
+    <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2" elements="9" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
     <file name="row.js" path="C:\Users\zacwa\Code\sudoku\src\row.js">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
+      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
