@@ -18,3 +18,16 @@ Row.prototype.isNumbers = function(){
     }});
   return i;
 }
+
+Row.prototype.repeats = function(){
+  let testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  let sortArray = this.sudoki;
+  sortArray.sort();
+  let i = true;
+  sortArray.forEach( function(element, index){
+    if (element !== testArray[index]){
+      i = false;
+    }
+    });
+  return i;
+}

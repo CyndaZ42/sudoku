@@ -26,4 +26,14 @@ describe('Row', () => {
     const sudoku = new Row(["a", 12, 0]);
     expect(sudoku.isNumbers()).toEqual(false);
   });
+
+  test('should check if an items in row arent repeated', () => {
+    const sudoku = new Row([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+    expect(sudoku.repeats()).toEqual(true);
+  });
+
+  test('should check if an items in row are repeated', () => {
+    const sudoku = new Row([1, 2, 3, 4, 5, 6, 9, 9, 9]);
+    expect(sudoku.repeats()).toEqual(false);
+  });
 });

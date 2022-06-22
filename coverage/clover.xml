@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655936885731" clover="3.2.0">
-  <project timestamp="1655936885732" name="All files">
-    <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4" elements="23" coveredelements="23" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+<coverage generated="1655938158191" clover="3.2.0">
+  <project timestamp="1655938158191" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6" elements="35" coveredelements="35" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
     <file name="row.js" path="C:\Users\zacwa\Code\sudoku\src\row.js">
-      <metrics statements="12" coveredstatements="12" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
-      <line num="2" count="5" type="stmt"/>
+      <metrics statements="20" coveredstatements="20" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
+      <line num="2" count="7" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="1" type="stmt"/>
@@ -12,10 +12,18 @@
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="2" type="stmt"/>
       <line num="15" count="2" type="stmt"/>
-      <line num="16" count="13" type="cond" truecount="5" falsecount="0"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="19" count="9" type="stmt"/>
-      <line num="22" count="2" type="stmt"/>
+      <line num="16" count="12" type="cond" truecount="5" falsecount="0"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="26" count="2" type="stmt"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
