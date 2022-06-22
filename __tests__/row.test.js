@@ -12,5 +12,8 @@ describe('Row', () => {
     expect(sudoku.isValid()).toEqual(true);
   });
 
-
+  test('should check if length is not 9', () => {
+    const sudoku = new Row([1, 2, 3, 4, 5, 6]);
+    expect(sudoku.isValid()).toEqual(false);
+  });
 });
