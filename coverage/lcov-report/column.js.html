@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for row.js</title>
+    <title>Code coverage report for column.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,34 +19,34 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> row.js</h1>
+        <h1><a href="index.html">All files</a> column.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>20/20</span>
+                <span class='fraction'>25/25</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>9/9</span>
+                <span class='fraction'>0/0</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>20/20</span>
+                <span class='fraction'>24/24</span>
             </div>
         
             
@@ -95,71 +95,83 @@
 <a name='L30'></a><a href='#L30'>30</a>
 <a name='L31'></a><a href='#L31'>31</a>
 <a name='L32'></a><a href='#L32'>32</a>
-<a name='L33'></a><a href='#L33'>33</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">34x</span>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">12x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">27x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export default function Row(sudoki){
-  this.sudoki = sudoki;
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Row from './../src/row.js'
+&nbsp;
+export default function Column(row1, row2, row3, row4, row5, row6, row7, row8, row9){
+  this.line = [row1, row2, row3, row4, row5, row6, row7, row8, row9];
 }
 &nbsp;
-Row.prototype.isLength = function() {
-  if (this.sudoki.length === 9){
-    return true;
-  } else {
-    return false;
+Column.prototype.repeats = function() {
+  let column0 = [];
+  let column1 = [];
+  let column2 = [];
+  let column3 = [];
+  let column4 = [];
+  let column5 = [];
+  let column6 = [];
+  let column7 = [];
+  let column8 = [];
+  for (let i = 0; i &lt; 9; i++) {
+    eval('column' + i + ' = [this.line[0][i], this.line[1][i], this.line[2][i], this.line[3][i], this.line[4][i], this.line[5][i], this.line[6][i], this.line[7][i], this.line[8][i]]');
+    //let row1 = new Row ([this.line[0][i], this.line[1][i], this.line[2][i], this.line[3][i], this.line[4][i], this.line[5][i], this.line[6][i], this.line[7][i], this.line[8][i]]) 
+    eval('console.log(column' + i + ')');
   }
-};
+  const vertical0 = new Row(column0);
+  const vertical1 = new Row(column1);
+  const vertical2 = new Row(column2);
+  const vertical3 = new Row(column3);
+  const vertical4 = new Row(column4);
+  const vertical5 = new Row(column5);
+  const vertical6 = new Row(column6);
+  const vertical7 = new Row(column7);
+  const vertical8 = new Row(column8);
 &nbsp;
-Row.prototype.isNumbers = function(){
-  let i = true
-  this.sudoki.forEach( function(element){
-    if (10 &lt;= parseInt(element) || parseInt(element) &lt;=0 || isNaN(parseInt(element))) {
-      i = false;
-    }});
-  return i;
-};
+  vertical0.repeats()
+}
 &nbsp;
-Row.prototype.repeats = function(){
-  let testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-  let sortArray = this.sudoki;
-  sortArray.sort();
-  let i = true;
-  sortArray.forEach( function(element, index){
-    if (element !== testArray[index]){
-      i = false;
-    }
-    });
-  return i;
-};</pre></td></tr></table></pre>
+//Column.prototype.makeRow = function(named){
+//  let named = new Row ([this.line[0][i], this.line[1][i], this.line[2][i], this.line[3][i], this.line[4][i], this.line[5][i], this.line[6][i], this.line[7][i], this.line[8][i]]);
+//}</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->

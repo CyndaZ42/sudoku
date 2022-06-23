@@ -8,7 +8,7 @@ Row.prototype.isLength = function() {
   } else {
     return false;
   }
-}
+};
 
 Row.prototype.isNumbers = function(){
   let i = true
@@ -17,7 +17,7 @@ Row.prototype.isNumbers = function(){
       i = false;
     }});
   return i;
-}
+};
 
 Row.prototype.repeats = function(){
   let testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -30,4 +30,4 @@ Row.prototype.repeats = function(){
     }
     });
   return i;
-}
+};

@@ -1,29 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655938158191" clover="3.2.0">
-  <project timestamp="1655938158191" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6" elements="35" coveredelements="35" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+<coverage generated="1655942385733" clover="3.2.0">
+  <project timestamp="1655942385734" name="All files">
+    <metrics statements="44" coveredstatements="44" conditionals="9" coveredconditionals="9" methods="8" coveredmethods="8" elements="61" coveredelements="61" complexity="0" loc="44" ncloc="44" packages="1" files="2" classes="2"/>
+    <file name="column.js" path="C:\Users\zacwa\Code\sudoku\src\column.js">
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="9" type="stmt"/>
+      <line num="20" count="9" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+    </file>
     <file name="row.js" path="C:\Users\zacwa\Code\sudoku\src\row.js">
       <metrics statements="20" coveredstatements="20" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
-      <line num="2" count="7" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
+      <line num="2" count="34" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
       <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="7" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
       <line num="14" count="2" type="stmt"/>
       <line num="15" count="2" type="stmt"/>
       <line num="16" count="12" type="cond" truecount="5" falsecount="0"/>
       <line num="17" count="3" type="stmt"/>
       <line num="19" count="2" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="23" count="2" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
-      <line num="25" count="2" type="stmt"/>
-      <line num="26" count="2" type="stmt"/>
-      <line num="27" count="2" type="stmt"/>
-      <line num="28" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="28" count="27" type="cond" truecount="2" falsecount="0"/>
       <line num="29" count="2" type="stmt"/>
-      <line num="32" count="2" type="stmt"/>
+      <line num="32" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
